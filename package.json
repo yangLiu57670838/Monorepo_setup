@@ -1,7 +1,7 @@
 {
   "name": "monorepo_setup",
   "version": "1.0.0",
-  "description": "a monorepo structure setup with ci",
+  "description": "aaa monorepo structure setup with ci",
   "main": "index.js",
   "scripts": {
     "start": "npm run deps; npm run clone; npm run sync",
