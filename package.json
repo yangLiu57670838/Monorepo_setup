@@ -1,11 +1,13 @@
 {
   "name": "monorepo_setup",
   "version": "1.0.0",
-  "description": "an monorepo structure setup with ci",
+  "description": "a monorepo structure setup with ci",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run deps; npm run clone; npm run sync",
+    "deps": ".build/deps.sh",
+    "clone": "gulp common:clone",
+    "sync": "gulp common:sync"
   },
-  "author": "Yang Liu",
-  "license": "ISC"
+  "author": "Yang Liu"
 }
