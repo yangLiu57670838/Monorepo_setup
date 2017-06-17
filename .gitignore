@@ -1,0 +1,7 @@
+.idea
+.npm
+node_modules
+project3/common
+project2/common
+project1/common
+.DS_Store
