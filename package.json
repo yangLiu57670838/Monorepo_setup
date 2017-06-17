@@ -9,5 +9,13 @@
     "clone": "gulp common:clone",
     "sync": "gulp common:sync"
   },
-  "author": "Yang Liu"
+  "author": "Yang Liu",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
